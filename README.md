@@ -38,12 +38,12 @@ main/
 ## Usage & Citation 
 If you find our work useful, please consider citing it:
 ```bash
-@article{
+@article{Zhang_Hallmarkgraph_2025,
   title={HallmarkGraph: a cancer hallmark informed graph neural network for classifying hierarchical tumor subtypes},
   author={Qingsong Zhang, Fei Liu, Xin Lai},
-  journal={Submitted},
+  journal={Accepted in Bioinformatics},
   year={2025}
 }
 
-This code is made available under the GPLv3 License and is available for non-commercial academic purposes.
+©[Lai Lab](https://sites.google.com/view/lai-lab) - This code is made available under the GPLv3 License and is available for non-commercial academic purposes.
 ```
