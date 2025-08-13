@@ -29,7 +29,7 @@ main/
 * Python (3.8), tensorflow (2.8.2), keras (2.8.0), shap (0.45.1), scikit-learn (1.4.1), matplotlib (3.9.2)    
 
 ## How to reproduce the results:
-1. You first need to download the archived data and models from in [Zenodo](https://zenodo.org/records/15790123) and store them in `data` and `best_model` folders, respectively (see readme.md in the folder).
+1. You first need to download the archived data and models from [Zenodo](https://zenodo.org/records/15790123) and store them in `data` and `best_model` folders, respectively (see readme.md in the folder).
 2. Run the file `code/HallmarkGraph.py`
 3. If you want to predict hard samples (i.e., validation data), please set `Whether_to_predict_hard_stamples = TRUE` in `code/HallmarkGraph.py`. The curated, finalized results can be found in `data/model_validation.xlsx`
 4. If you want to calculate the shap, please set `Whether_to_calculate_the_shap = TRUE` in `code/HallmarkGraph.py`.
