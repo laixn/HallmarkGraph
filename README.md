@@ -36,13 +36,20 @@ main/
 
 ## Usage & Citation 
 If you find our work useful, please consider citing it:
+
+Qingsong Zhang, Fei Liu, Xin Lai. HallmarkGraph: a cancer hallmark informed graph neural network for classifying hierarchical tumor subtypes. 
+Bioinformatics. https://doi.org/10.1093/bioinformatics/btaf444 (2025).
+
 ```bash
 @article{Zhang_Hallmarkgraph_2025,
   title={HallmarkGraph: a cancer hallmark informed graph neural network for classifying hierarchical tumor subtypes},
   author={Qingsong Zhang, Fei Liu, Xin Lai},
   journal={Accepted in Bioinformatics},
+  doi={10.1093/bioinformatics/btaf444},
   year={2025}
 }
 ```
+
+
 © [Lai Lab](https://sites.google.com/view/lai-lab) - This code is made available under the GPLv3 License and is available for non-commercial academic purposes.
 ```
