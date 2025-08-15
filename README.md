@@ -44,7 +44,7 @@ Bioinformatics. https://doi.org/10.1093/bioinformatics/btaf444 (2025).
 @article{Zhang_Hallmarkgraph_2025,
   title={HallmarkGraph: a cancer hallmark informed graph neural network for classifying hierarchical tumor subtypes},
   author={Qingsong Zhang, Fei Liu, Xin Lai},
-  journal={Accepted in Bioinformatics},
+  journal={Bioinformatics},
   doi={10.1093/bioinformatics/btaf444},
   year={2025}
 }
