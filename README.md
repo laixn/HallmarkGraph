@@ -7,17 +7,17 @@ We present a graph neural network, HallmarkGraph, the first biologically informe
 The repository contains the following strucutre and files:
 ```bash
 main/
-  └──code/
+  └──code/ # the code to run the model
         └── HallmarkGraph.py
-  └──data/
+  └──data/ # the data used to train and test the model
         ├── clean_data.csv
         ├── clean_label.xlsx
         └── model_validation.xlsx
-  └──adjacency_matrix/
+  └──adjacency_matrix/ # the cancer hallmark matrix for GCN
         ├── Undirected_0...matrix.npz
         ├── ...
         └── Undirected_9...matrix.npz
-  └──best_model/
+  └──best_model/ # the best model we reported in the paper
         ├── my_BioGCN_net_(0.4)_target_1.h5
         ├── ...
         └── my_BioGCN_net_(0.4)_target_8.h5
@@ -32,7 +32,7 @@ main/
 1. You first need to download the archived data and models from [Zenodo](https://zenodo.org/records/15790123) and store them in `data` and `best_model` folders, respectively (see readme.md in the folder).
 2. Run the file `code/HallmarkGraph.py`
 3. If you want to predict hard samples (i.e., validation data), please set `Whether_to_predict_hard_stamples = TRUE` in `code/HallmarkGraph.py`. The curated, finalized results can be found in `data/model_validation.xlsx`
-4. If you want to calculate the shap, please set `Whether_to_calculate_the_shap = TRUE` in `code/HallmarkGraph.py`.
+4. If you want to calculate the SHAP values, please set `Whether_to_calculate_the_shap = TRUE` in `code/HallmarkGraph.py`.
 
 ## Usage & Citation 
 If you find our work useful, please consider citing it:
