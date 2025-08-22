@@ -1,4 +1,8 @@
 ## HallmarkGraph: a cancer hallmark informed graph neural network for classifying hierarchical tumor subtypes
+[![Static Badge](https://img.shields.io/badge/JOURNAL-bioinformatics-blue)](https://doi.org/10.1093/bioinformatics/btaf44)
+[![Static Badge](https://img.shields.io/badge/PDF-researchgate-green)](https://www.researchgate.net/publication/394474215_HallmarkGraph_a_cancer_hallmark_informed_graph_neural_network_for_classifying_hierarchical_tumor_subtypes)
+[![Static Badge](https://img.shields.io/badge/ZENODO-10.5281/zenodo.15790123-red)](https://zenodo.org/records/15790123)
+
 We present a graph neural network, HallmarkGraph, the first biologically informed model developed to classify hierarchical tumor subtypes in human cancer. Inspired by cancer hallmarks, the model’s architecture integrates transcriptome profiles and gene regulatory interactions to perform multi-label classification. We evaluate the model on a comprehensive pan-cancer cohort comprising 11,476 samples from 26 primary cancers with 405 subtypes. 
 
 ![hallmarkgraph](https://github.com/user-attachments/assets/7f0689d0-99b0-4486-9caf-552ed20bbb20)
@@ -29,7 +33,7 @@ main/
 * Python (3.8), tensorflow (2.8.2), keras (2.8.0), shap (0.45.1), scikit-learn (1.4.1), matplotlib (3.9.2)    
 
 ## How to reproduce the results:
-1. You first need to download the archived data and models from [Zenodo](https://zenodo.org/records/15790123) and store them in `data` and `best_model` folders, respectively (see readme.md in the folder).
+1. You first need to download the archived data and models from [![Static Badge](https://img.shields.io/badge/ZENODO-grey)](https://zenodo.org/records/15790123) and store them in `data` and `best_model` folders, respectively (see readme.md in the folder).
 2. Run the file `code/HallmarkGraph.py`
 3. If you want to predict hard samples (i.e., validation data), please set `Whether_to_predict_hard_stamples = TRUE` in `code/HallmarkGraph.py`. The curated, finalized results can be found in `data/model_validation.xlsx`
 4. If you want to calculate the SHAP values, please set `Whether_to_calculate_the_shap = TRUE` in `code/HallmarkGraph.py`.
