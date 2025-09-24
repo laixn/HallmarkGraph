@@ -32,7 +32,7 @@ main/
 * NVIDIA GPU (Nvidia GeForce RTX 2080 Ti x 2)
 * Python (3.8), tensorflow (2.8.2), keras (2.8.0), shap (0.45.1), scikit-learn (1.4.1), matplotlib (3.9.2)    
 
-## How to reproduce the results:
+## Run the code:
 1. You first need to download the archived data and models from [![Static Badge](https://img.shields.io/badge/ZENODO-grey)](https://zenodo.org/records/15790123) and store them in `data` and `best_model` folders, respectively (see readme.md in the folder).
 2. Run the file `code/HallmarkGraph.py`
 3. If you want to predict hard samples (i.e., validation data), please set `Whether_to_predict_hard_stamples = TRUE` in `code/HallmarkGraph.py`. The curated, finalized results can be found in `data/model_validation.xlsx`
