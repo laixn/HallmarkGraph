@@ -45,7 +45,7 @@ Qingsong Zhang, Fei Liu, Xin Lai. HallmarkGraph: a cancer hallmark informed grap
 Bioinformatics. https://doi.org/10.1093/bioinformatics/btaf444 (2025).
 
 ```bash
-@article{Zhang_Hallmarkgraph_2025,
+@article{Zhang_HallmarkGraph_2025,
   title={HallmarkGraph: a cancer hallmark informed graph neural network for classifying hierarchical tumor subtypes},
   author={Qingsong Zhang, Fei Liu, Xin Lai},
   journal={Bioinformatics},
