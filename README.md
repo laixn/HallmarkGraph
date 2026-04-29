@@ -1,5 +1,5 @@
 ## HallmarkGraph: a cancer hallmark informed graph neural network for classifying hierarchical tumor subtypes
-[![Static Badge](https://img.shields.io/badge/JOURNAL-bioinformatics-blue)](https://doi.org/10.1093/bioinformatics/btaf44)
+[![Static Badge](https://img.shields.io/badge/JOURNAL-bioinformatics-blue)](https://doi.org/10.1093/bioinformatics/btaf444)
 [![Static Badge](https://img.shields.io/badge/PDF-researchgate-green)](https://www.researchgate.net/publication/394474215_HallmarkGraph_a_cancer_hallmark_informed_graph_neural_network_for_classifying_hierarchical_tumor_subtypes)
 [![Static Badge](https://img.shields.io/badge/ZENODO-10.5281/zenodo.15790123-red)](https://zenodo.org/records/15790123)
 
