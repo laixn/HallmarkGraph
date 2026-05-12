@@ -55,5 +55,5 @@ Bioinformatics. https://doi.org/10.1093/bioinformatics/btaf444 (2025).
 ```
 
 
-© [Lai Lab](https://sites.google.com/view/lai-lab) - This code is made available under the GPLv3 License and is available for non-commercial academic purposes.
+© [Lai Lab](https://sites.google.com/view/lai-lab) - This code is made available under the MITF License.
 ```
