@@ -1,7 +1,7 @@
-## HallmarkGraph: a cancer hallmark informed graph neural network for classifying hierarchical tumor subtypes
-[![Static Badge](https://img.shields.io/badge/JOURNAL-bioinformatics-blue)](https://doi.org/10.1093/bioinformatics/btaf444)
+## HallmarkGraph
+[![Static Badge](https://img.shields.io/badge/PAPER-bioinformatics-blue)](https://doi.org/10.1093/bioinformatics/btaf444)
 [![Static Badge](https://img.shields.io/badge/PDF-researchgate-green)](https://www.researchgate.net/publication/394474215_HallmarkGraph_a_cancer_hallmark_informed_graph_neural_network_for_classifying_hierarchical_tumor_subtypes)
-[![Static Badge](https://img.shields.io/badge/ZENODO-10.5281/zenodo.15790123-red)](https://zenodo.org/records/15790123)
+[![Static Badge](https://img.shields.io/badge/DATA-10.5281/zenodo.15790123-red)](https://zenodo.org/records/15790123)
 
 We present a graph neural network, HallmarkGraph, the first biologically informed model developed to classify hierarchical tumor subtypes in human cancer. Inspired by cancer hallmarks, the model’s architecture integrates transcriptome profiles and gene regulatory interactions to perform multi-label classification. We evaluate the model on a comprehensive pan-cancer cohort comprising 11,476 samples from 26 primary cancers with 405 subtypes. 
 
